@@ -3,3 +3,8 @@ LR parsing based calculators
 
 eexp - evaluates expressions directly (portable)
 cexp - jit compiles expressions (x86-64 only)
+
+If you want cexp to print the code generated, you
+have to install the udis86 library, uncomment one
+line in the Makefile and make sure the include in
+cexp.c is valid.
