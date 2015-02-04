@@ -1,0 +1,5 @@
+LR parsing based calculators
+----------------------------
+
+eexp - evaluates expressions directly (portable)
+cexp - jit compiles expressions (x86-64 only)
